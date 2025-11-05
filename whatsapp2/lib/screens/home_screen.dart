@@ -3,6 +3,7 @@ import '../models/conversation_model.dart';
 import '../widgets/conversation_item.dart';
 import '../services/auth_service.dart';
 import 'login_screen.dart';
+import 'chat_screen.dart'; // Importando tela de chat
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -185,8 +186,14 @@ class _HomeScreenState extends State<HomeScreen> {
             return ConversationItem(
               conversation: conversations[index],
               onTap: () {
-                // Navegar para tela de chat
-                print('Abrir conversa com ${conversations[index].contactName}');
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => ChatScreen(
+                      conversation: conversations[index],
+                    ),
+                  ),
+                );
               },
             );
           },
