@@ -1,3 +1,9 @@
+# Participantes
+
+Any Caroline de Mello Martins - R.A: 178678-2024
+Artur Ribeiro Bérgamo - R.A: 169479-2024
+
+
 # ChatApp - Aplicativo de Mensagens em Tempo Real
 
 Aplicativo mobile de chat desenvolvido em Flutter com backend Supabase, seguindo as especificações do projeto da disciplina de Programação para Dispositivos Móveis.
@@ -92,35 +98,6 @@ lib/
 - ✅ Interface de lista de conversas
 - ✅ Verificação automática de sessão
 
-## Próximos Passos (Conforme Cronograma)
-
-### Semanas 3-4: Conversas e Mensagens
-- [ ] Criar tabelas no Supabase (users, conversations, messages)
-- [ ] Implementar tela de chat individual
-- [ ] Envio e recebimento de mensagens em tempo real
-- [ ] Upload de imagens
-
-### Semana 5: Funcionalidades Adicionais
-- [ ] Busca de usuários
-- [ ] Criação de grupos
-- [ ] Reações a mensagens
-- [ ] Indicador de "digitando..."
-- [ ] Status online/offline
-
-### Semana 6: Testes e Ajustes
-- [ ] Testes de funcionalidades
-- [ ] Correção de bugs
-- [ ] Otimizações de performance
-- [ ] Documentação final
-
-## Configuração do Banco de Dados (Próxima Etapa)
-
-As tabelas necessárias serão criadas no Supabase SQL Editor:
-
-- `profiles` - Perfis dos usuários
-- `conversations` - Conversas individuais e grupos
-- `messages` - Mensagens enviadas
-- `conversation_participants` - Participantes das conversas
 
 ### ⚠️ IMPORTANTE: Executar Scripts SQL no Supabase
 
@@ -178,17 +155,3 @@ O projeto utiliza Row Level Security (RLS) do Supabase para garantir que:
 - Mensagens sejam visíveis apenas para participantes
 - Dados sensíveis sejam protegidos
 
-## Suporte
-
-Para dúvidas sobre o projeto, consulte:
-- [Documentação do Flutter](https://flutter.dev/docs)
-- [Documentação do Supabase](https://supabase.com/docs)
-- Professor: Gustavo Meneghetti Arcolezi
-
-## Data de Entrega
-
-**25/11/2025** - Apresentação final do projeto
-
-## Licença
-
-Projeto acadêmico - Programação para Dispositivos Móveis
